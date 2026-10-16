@@ -20,15 +20,9 @@ body {
   padding: 0 1rem;
 }
 
-.controls,
-.footer {
+.controls {
   display: flex;
   gap: 0.5rem;
-}
-
-.footer {
-  justify-content: space-between;
-  align-items: center;
 }
 
 input {
@@ -59,17 +53,8 @@ ul {
 }
 
 li {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding: 0.5rem;
   border-bottom: 1px solid #444;
-  cursor: pointer;
-}
-
-li.done span {
-  text-decoration: line-through;
-  opacity: 0.5;
 }
 
 @media (prefers-color-scheme: light) {
