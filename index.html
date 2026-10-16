@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mock JS Shopping List</title>
+  </head>
+  <body>
+    <div id="app">
+      <h1>Shopping List</h1>
+
+      <div class="controls">
+        <input id="item-input" type="text" placeholder="Add an item" />
+        <button id="add-btn" type="button">Add</button>
+      </div>
+
+      <ul id="list"></ul>
+
+      <div class="footer">
+        <span id="counter">0 items left</span>
+        <button id="clear-btn" type="button">Clear all</button>
+      </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
